@@ -1,0 +1,10 @@
+{
+"universe": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansUniverse'].value[]"],
+"frequencyOfDataCollection": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansFrequencyOfDataCollection'].value"],
+"samplingProcedure": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansSamplingProcedureFreeText'].value"],
+"dataCollectionSituation": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansDataCollectionSituation'].value"],
+"actionsToMinimizeLoss": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansActionsToMinimizeLoss'].value"],
+"weighting": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansWeighting'].value"],
+"responseRate": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansResponseRate'].value"],
+"otherGeographicCoverage": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialCoverageText'].value"]
+}
