@@ -6,7 +6,7 @@ You can either create the mappings by hand or use the spreadsheet that does most
 In either case it is important to double check that your paths work. The [JMESPath](https://jmespath.org/tutorial.html) website is a useful tool for this.
 Simply paste your JSON source and test the paths.
 
-## Spreadsheet
+## Mapping Generator
 The spreadsheet does most of the work for you by using a couple of formulas.
 
 Columns you need to fill in by hand:
