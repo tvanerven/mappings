@@ -16,5 +16,5 @@
   "questionSchemeName": ["result.ns1:DDIInstance.d:QuestionScheme.d:QuestionSchemeName.r:String"],
   "questionId": ["result.ns1:DDIInstance.d:QuestionScheme.d:QuestionSchemeName.d:QuestionItem.r:URN"],
   "questionName": ["result.ns1:DDIInstance.d:QuestionScheme.d:QuestionSchemeName.d:QuestionItem.d:QuestionItemName.r:String"],
-  "questionText": ["result.ns1:DDIInstance.d:QuestionScheme.d:QuestionSchemeName.d:QuestionItem.d:QuestionText.d:LiteralText.d:Text xml:lang="en""]
+  "questionText": ["result.ns1:DDIInstance.d:QuestionScheme.d:QuestionSchemeName.d:QuestionItem.d:QuestionText.d:LiteralText.d:Text"]
 }
