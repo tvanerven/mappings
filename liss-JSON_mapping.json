@@ -35,5 +35,6 @@
       "questionName": "name",
       "questionText": "question_text"
     }
-  }  
+  },
+  "distributionDate": ["created"]
 }
