@@ -18,7 +18,7 @@
       "variableName": ["VerkorteSchrijfwijzeNaamVariabele"],
       "variableLabel": ["LabelVanDeVariabele"],
       "conceptVariableDefinition": ["Variabele.Definitie"],
-      "conceptVariableObjecttype": ["VariabeleObjecttypenaam"],
+      "conceptVariableObjecttype": ["Variabele.Objecttypenaam"],
       "conceptVariableValidFrom": ["Variabele.GeldigVanaf"],
       "conceptVariableName": ["Variabele.UniekeNaam"],
       "conceptVariableID": ["Variabele.Id"],
