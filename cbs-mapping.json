@@ -18,7 +18,7 @@
       "odisseiVariableName": ["VerkorteSchrijfwijzeNaamVariabele"],
       "odisseiVariableLabel": ["LabelVanDeVariabele"],
       "odisseiConceptVariableDefinition": ["Variabele.Definitie"],
-      "odisseiConceptVariableObjecttype": ["VariabeleObjecttypenaam"],
+      "odisseiConceptVariableObjecttype": ["Variabele.Objecttypenaam"],
       "odisseiConceptVariableValidFrom": ["Variabele.GeldigVanaf"],
       "odisseiConceptVariableName": ["Variabele.UniekeNaam"],
       "odisseiConceptVariableID": ["Variabele.Id"],
