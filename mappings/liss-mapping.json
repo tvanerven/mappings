@@ -4,13 +4,14 @@
   "dsDescriptionValue": ["abstract"],
   "title": ["title"],
   "distributorName": ["publisher"],
-  "keywordValue": ["concepts[*]"],
-  "topicClassValue": ["topics[*]"],
+  "keywordValue": ["concepts"],
+  "topicClassValue": ["topics"],
   "publication": {
     "mapping": "publications[*]",
     "children": {
-      "publicationCitation": ["title"],
-      "publicationURL": ["intl_identifier"]
+      "publicationCitation": ["creator"],
+      "publicationIDNumber": ["intl_identifier"],
+      "publicationURL": ["url"]
     }
   },
   "grantNumberAgency": ["funding_organizations[*]"],
@@ -26,14 +27,14 @@
       "variableName": ["name"],
       "variableLabel": ["label"]
     }
-  }, 
+  },
   "questionSchemeName": ["questionnaires[*].name"],
   "questionSchemeDescription": ["questionnaires[*].description"],
   "question":{
-    "mapping": "questionnaires[].questions[*]",
+    "mapping": "questionnaires[].questions[]",
     "children":{
-      "questionName": "name",
-      "questionText": "question_text"
+      "questionName": ["name"],
+      "questionText": ["question_text"]
     }
   },
   "distributionDate": ["created"]
