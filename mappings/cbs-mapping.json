@@ -1,4 +1,5 @@
 {
+  "availabilityStatus":  ["result.Dataontwerpversies.Versie.Dataontwerp.CbsAccess"],
 
   "datasetPersistentId": ["result.Dataontwerpversies.Versie.Dataontwerp.Doi"],
   "dsDescriptionValue": ["result.Dataontwerpversies.Versie.Dataontwerp.Beschrijving","result.Dataontwerpversies.Versie.Dataontwerp.NederlandstaligePublicatietekst","result.Dataontwerpversies.Versie.Dataontwerp.EngelstaligePublicatietekst"],
@@ -37,7 +38,6 @@
   "universe": ["result.Dataontwerpversies.Versie.Dataontwerp.BeschrijvingVanDePopulatie"],
   "NaamInDscCatalogus": ["result.Dataontwerpversies.Versie.Dataontwerp.NaamInDscCatalogus"],
   "UniekeNaam": ["result.Dataontwerpversies.Versie.Dataontwerp.UniekeNaam"],
-  "CBSAccess":  ["result.Dataontwerpversies.Versie.Dataontwerp.CbsAccess"],
   "GeldigVanaf": ["result.Dataontwerpversies.Versie.Dataontwerp.GeldigVanaf"],
   "GeldigTot": ["result.Dataontwerpversies.Versie.Dataontwerp.GeldigTot"],
   "Versie": ["result.Dataontwerpversies.Versie.Dataontwerp.Versie"],

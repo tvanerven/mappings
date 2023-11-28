@@ -1,5 +1,5 @@
 {
-  "datasetPersistentId": ["DOI"],
+  "persistentUrl": ["DOI"],
   "authorName": ["creator"],
   "dsDescriptionValue": ["abstract"],
   "title": ["title"],
