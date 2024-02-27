@@ -531,7 +531,7 @@
                 "dansRelationType": {
                   "typeName": "dansRelationType",
                   "multiple": false,
-                  "typeClass": "controlledVocabulary",
+                  "typeClass": "primitive",
                   "value": ""
                 },
                 "dansRelationText": {
