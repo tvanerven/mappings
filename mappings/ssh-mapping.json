@@ -1,4 +1,5 @@
 {
+  "publicationDate": ["publicationDate"],
   "persistentUrl": ["persistentUrl"],
   "datasetPersistentId": ["datasetVersion.datasetPersistentId"],
   "title": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'title'].value"],
