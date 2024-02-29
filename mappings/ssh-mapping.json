@@ -1,6 +1,10 @@
 {
+  "termsOfAccess": ["termsOfAccess"],
+  "termsOfUse": ["termsOfUse"],
+  "license": ["license"],
   "publicationDate": ["publicationDate"],
   "persistentUrl": ["persistentUrl"],
+  "metadataLanguage": ["metadataLanguage"],
   "datasetPersistentId": ["datasetVersion.datasetPersistentId"],
   "title": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'title'].value"],
   "subtitle": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'subtitle'].value"],
