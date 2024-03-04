@@ -1,7 +1,7 @@
 {
   "termsOfAccess": ["termsOfAccess"],
   "termsOfUse": ["termsOfUse"],
-  "license": ["datasetVersion.license.name"],
+  "license": ["datasetVersion.license"],
   "publicationDate": ["publicationDate"],
   "persistentUrl": ["persistentUrl"],
   "metadataLanguage": ["metadataLanguage"],
