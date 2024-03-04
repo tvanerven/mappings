@@ -284,9 +284,9 @@
           },
           {
             "typeName": "productionPlace",
-            "multiple": false,
+            "multiple": true,
             "typeClass": "primitive",
-            "value": ""
+            "value": []
           },
           {
             "typeName": "contributor",
