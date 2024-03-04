@@ -89,7 +89,7 @@
   "notesText": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'notesText'].value"],
   "language": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'language'].value[]"],
   "productionDate": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'productionDate'].value"],
-  "productionPlace": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'productionPlace'].value"],
+  "productionPlace": ["datasetVersion.metadataBlocks.citation.fields[?typeName == 'productionPlace'].value[]"],
   "grantNumber": {
     "mapping": "datasetVersion.metadataBlocks.citation.fields[?typeName == 'grantNumber'].value[]",
     "children": {
