@@ -1,6 +1,12 @@
 {
+  "publicationDate": "",
+  "persistentUrl": "",
   "datasetVersion": {
+    "termsOfAccess": "",
+    "termsOfUse": "",
+    "originalArchive": "",
     "datasetPersistentId": "",
+    "license": {},
     "metadataBlocks": {
       "citation": {
         "displayName": "Citation Metadata",
@@ -160,6 +166,66 @@
             ]
           },
           {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": ""
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              }
+            ]
+          },
+          {
             "typeName": "notesText",
             "multiple": false,
             "typeClass": "primitive",
@@ -218,9 +284,9 @@
           },
           {
             "typeName": "productionPlace",
-            "multiple": false,
+            "multiple": true,
             "typeClass": "primitive",
-            "value": ""
+            "value": []
           },
           {
             "typeName": "contributor",
@@ -371,22 +437,24 @@
           },
           {
             "typeName": "series",
-            "multiple": false,
+            "multiple": true,
             "typeClass": "compound",
-            "value": {
-              "seriesName": {
-                "typeName": "seriesName",
-                "multiple": false,
-                "typeClass": "primitive",
-                "value": ""
-              },
-              "seriesInformation": {
-                "typeName": "seriesInformation",
-                "multiple": false,
-                "typeClass": "primitive",
-                "value": ""
+            "value": [
+              {
+                "seriesName": {
+                  "typeName": "seriesName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                },
+                "seriesInformation": {
+                  "typeName": "seriesInformation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
               }
-            }
+            ]
           },
           {
             "typeName": "software",
@@ -417,10 +485,16 @@
           }
         ]
       },
-      "dansRights": {
-        "displayName": "Rights Metadata",
-        "name": "dansRights",
+      "dansMetadata": {
+        "displayName": "DANS Specific Metadata",
+        "name": "dansMetadata",
         "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": []
+          },
           {
             "typeName": "dansRightsHolder",
             "multiple": true,
@@ -438,13 +512,7 @@
             "multiple": true,
             "typeClass": "controlledVocabulary",
             "value": []
-          }
-        ]
-      },
-      "dansRelationMetadata": {
-        "displayName": "Relation Metadata",
-        "name": "dansRelationMetadata",
-        "fields": [
+          },
           {
             "typeName": "dansAudience",
             "multiple": true,
@@ -466,7 +534,7 @@
                 "dansRelationType": {
                   "typeName": "dansRelationType",
                   "multiple": false,
-                  "typeClass": "controlledVocabulary",
+                  "typeClass": "primitive",
                   "value": ""
                 },
                 "dansRelationText": {
@@ -483,13 +551,7 @@
                 }
               }
             ]
-          }
-        ]
-      },
-      "dansSocialSciences": {
-        "displayName": "Social Sciences and Humanities",
-        "name": "dansSocialSciences",
-        "fields": [
+          },
           {
             "typeName": "dansElsstClassification",
             "multiple": true,
@@ -498,72 +560,6 @@
           },
           {
             "typeName": "dansCessdaClassification",
-            "multiple": true,
-            "typeClass": "primitive",
-            "value": []
-          },
-          {
-            "typeName": "dansUniverse",
-            "multiple": true,
-            "typeClass": "primitive",
-            "value": []
-          },
-          {
-            "typeName": "dansFrequencyOfDataCollection",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          },
-          {
-            "typeName": "dansSamplingProcedureFreeText",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          },
-          {
-            "typeName": "dansDataCollectionSituation",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          },
-          {
-            "typeName": "dansActionsToMinimizeLoss",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          },
-          {
-            "typeName": "dansWeighting",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          },
-          {
-            "typeName": "dansResponseRate",
-            "multiple": false,
-            "typeClass": "primitive",
-            "value": ""
-          }
-        ]
-      },
-      "dansTemporalSpatial": {
-        "displayName": "Temporal and Spatial Coverage",
-        "name": "dansTemporalSpatial",
-        "fields": [
-          {
-            "typeName": "dansTemporalCoverage",
-            "multiple": true,
-            "typeClass": "primitive",
-            "value": []
-          },
-          {
-            "typeName": "dansSpatialCoverageControlled",
-            "multiple": true,
-            "typeClass": "controlledVocabulary",
-            "value": []
-          },
-          {
-            "typeName": "dansSpatialCoverageText",
             "multiple": true,
             "typeClass": "primitive",
             "value": []
