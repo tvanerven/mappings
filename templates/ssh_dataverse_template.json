@@ -97,17 +97,11 @@
             "typeClass": "compound",
             "value": [
               {
-                "datasetContactName": {
-                  "typeName": "datasetContactName",
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
                   "multiple": false,
                   "typeClass": "primitive",
-                  "value": ""
-                },
-                "datasetContactAffiliation": {
-                  "typeName": "datasetContactAffiliation",
-                  "multiple": false,
-                  "typeClass": "primitive",
-                  "value": ""
+                  "value": "portal@odissei.nl"
                 }
               }
             ]
