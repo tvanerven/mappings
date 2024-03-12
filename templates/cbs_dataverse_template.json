@@ -16,8 +16,8 @@
           {
             "typeName": "alternativeTitle",
             "typeClass": "primitive",
-            "multiple": false,
-            "value": ""
+            "multiple": true,
+            "value": []
           },
           {
             "typeName": "otherId",

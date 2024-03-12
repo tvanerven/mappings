@@ -26,9 +26,9 @@
           },
           {
             "typeName": "alternativeTitle",
-            "multiple": false,
+            "multiple": true,
             "typeClass": "primitive",
-            "value": ""
+            "value": []
           },
           {
             "typeName": "alternativeURL",
