@@ -129,9 +129,6 @@
   "collectorTraining": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'collectorTraining'].value"],
   "frequencyOfDataCollection": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansFrequencyOfDataCollection'].value"],
   "samplingProcedure": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansSamplingProcedureFreeText'].value", "datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansSamplingProcedureCV'].value[]"],
-  "targetSampleSize": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'targetSampleSize'].value"],
-  "targetSampleActualSize": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'targetSampleSize'].value[].targetSampleActualSize.value[]"],
-  "targetSampleSizeFormula": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'targetSampleSize'].value[].targetSampleSizeFormula.value[]"],
   "deviationsFromSampleDesign": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'deviationsFromSampleDesign'].value[]"],
   "collectionMode": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansCollectionMode'].value[]"],
   "researchInstrument": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansResearchInstrument'].value[]"],
@@ -144,17 +141,12 @@
   "responseRate":["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansResponseRate'].value"],
   "samplingErrorEstimates": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'samplingErrorEstimates'].value[]"],
   "otherDataAppraisal": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'otherDataAppraisal'].value[]"],
-  "socialScienceNotes": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'socialScienceNotes'].value[]"],
-  "socialScienceNotesType": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'socialScienceNotes'].value[].socialScienceNotesType.value[]"],
-  "socialScienceNotesSubject": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'socialScienceNotes'].value[].socialScienceNotesSubject.value[]"],
-  "socialScienceNotesText": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'socialScienceNotes'].value[].socialScienceNotesText.value[]"],
   "geographicCoverage": ["datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicCoverage'].value[]"],
   "country": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialCoverageControlled'].value[]"],
   "state": ["datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicCoverage'].value[*].state.value[]"],
   "city": ["datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicCoverage'].value[*].city.value[]"],
   "otherGeographicCoverage": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialCoverageText'].value[]"],
   "geographicUnit": ["datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicUnit'].value[]"],
-  "geographicBoundingBox": ["datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicBoundingBox'].value[]"],
   "dansElsstClassification": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansElsstClassification'].value[]"],
   "dansCessdaClassification": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansCessdaClassification'].value[]"],
   "dansRightsHolder": ["datasetVersion.metadataBlocks.dansRights.fields[?typeName == 'dansRightsHolder'].value[]"],
@@ -167,12 +159,32 @@
   "dansSpatialPointScheme": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialPoint'].value[].dansSpatialPointScheme.value"],
   "dansSpatialBox": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[]"],
   "dansSpatialBoxScheme": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[]"],
-  "eastLongitude": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[].dansSpatialBoxEast.value"],
-  "northLongitude": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[].dansSpatialBoxNorth.value"],
-  "southLongitude": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[].dansSpatialBoxSouth.value"],
-  "westLongitude": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[].dansSpatialBoxWest.value"],
   "dansAudience": ["datasetVersion.metadataBlocks.dansRelationMetadata.fields[?typeName == 'dansAudience'].value[]"],
   "dansCollection": ["datasetVersion.metadataBlocks.dansRelationMetadata.fields[?typeName == 'dansCollection'].value[]"],
+  "geographicBoundingBox": {
+    "mapping": "datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicBoundingBox'].value[]",
+    "children": {
+      "eastLongitude": ["dansSpatialBoxEast.value"],
+      "northLongitude": ["dansSpatialBoxNorth.value"],
+      "southLongitude": ["dansSpatialBoxSouth.value"],
+      "westLongitude": ["dansSpatialBoxWest.value"]
+    }
+  },
+  "targetSampleSize": {
+    "mapping": "datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'targetSampleSize'].value[]",
+    "children": {
+      "targetSampleActualSize": ["targetSampleActualSize.value"],
+      "targetSampleSizeFormula": ["targetSampleSizeFormula.value"]
+    }
+  },
+  "socialScienceNotes": {
+    "mapping": "datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'socialScienceNotes'].value[]",
+    "children": {
+      "socialScienceNotesType": ["socialScienceNotesType.value"],
+      "socialScienceNotesSubject": ["socialScienceNotesSubject.value"],
+      "socialScienceNotesText": ["socialScienceNotesText.value"]
+    }
+  },
   "series": {
     "mapping": "datasetVersion.metadataBlocks.citation.fields[?typeName == 'series'].value[]",
     "children": {
