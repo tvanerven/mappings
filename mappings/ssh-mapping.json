@@ -141,11 +141,6 @@
   "responseRate":["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansResponseRate'].value"],
   "samplingErrorEstimates": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'samplingErrorEstimates'].value[]"],
   "otherDataAppraisal": ["datasetVersion.metadataBlocks.socialscience.fields[?typeName == 'otherDataAppraisal'].value[]"],
-  "geographicCoverage": ["datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicCoverage'].value[]"],
-  "country": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialCoverageControlled'].value[]"],
-  "state": ["datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicCoverage'].value[*].state.value[]"],
-  "city": ["datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicCoverage'].value[*].city.value[]"],
-  "otherGeographicCoverage": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialCoverageText'].value[]"],
   "geographicUnit": ["datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicUnit'].value[]"],
   "dansElsstClassification": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansElsstClassification'].value[]"],
   "dansCessdaClassification": ["datasetVersion.metadataBlocks.dansSocialSciences.fields[?typeName == 'dansCessdaClassification'].value[]"],
@@ -161,6 +156,17 @@
   "dansSpatialBoxScheme": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[]"],
   "dansAudience": ["datasetVersion.metadataBlocks.dansRelationMetadata.fields[?typeName == 'dansAudience'].value[]"],
   "dansCollection": ["datasetVersion.metadataBlocks.dansRelationMetadata.fields[?typeName == 'dansCollection'].value[]"],
+  "otherGeographicCoverage": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialCoverageText'].value[]"],
+  "country": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialCoverageControlled'].value[]"],
+  "geographicCoverage": {
+    "mapping": "datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicCoverage'].value[]",
+    "children": {
+      "country": ["country.value"],
+      "state": ["state.value"],
+      "city": ["city.value"],
+      "otherGeographicCoverage": ["otherGeographicCoverage.value"]
+    }
+  },
   "geographicBoundingBox": {
     "mapping": "datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicBoundingBox'].value[]",
     "children": {
