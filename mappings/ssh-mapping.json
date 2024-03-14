@@ -148,12 +148,6 @@
   "dansPersonalDataPresent": ["datasetVersion.metadataBlocks.dansRights.fields[?typeName == 'dansPersonalDataPresent'].value"],
   "dansMetadataLanguage": ["datasetVersion.metadataBlocks.dansRights.fields[?typeName == 'dansMetadataLanguage'].value[]"],
   "dansTemporalCoverage": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansTemporalCoverage'].value[]"],
-  "dansSpatialPoint": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialPoint'].value[]"],
-  "dansSpatialPointX": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialPoint'].value[].dansSpatialPointX.value"],
-  "dansSpatialPointY": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialPoint'].value[].dansSpatialPointY.value"],
-  "dansSpatialPointScheme": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialPoint'].value[].dansSpatialPointScheme.value"],
-  "dansSpatialBox": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[]"],
-  "dansSpatialBoxScheme": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[]"],
   "dansAudience": ["datasetVersion.metadataBlocks.dansRelationMetadata.fields[?typeName == 'dansAudience'].value[]"],
   "dansCollection": ["datasetVersion.metadataBlocks.dansRelationMetadata.fields[?typeName == 'dansCollection'].value[]"],
   "otherGeographicCoverage": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialCoverageText'].value[]"],
@@ -168,7 +162,7 @@
     }
   },
   "geographicBoundingBox": {
-    "mapping": "datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicBoundingBox'].value[]",
+    "mapping": "datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[]",
     "children": {
       "eastLongitude": ["dansSpatialBoxEast.value"],
       "northLongitude": ["dansSpatialBoxNorth.value"],
