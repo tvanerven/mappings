@@ -1,6 +1,7 @@
 {
-  "termsOfAccess": ["termsOfAccess"],
-  "termsOfUse": ["termsOfUse"],
+  "termsOfAccess": ["datasetVersion.termsOfAccess"],
+  "termsOfUse": ["datasetVersion.termsOfUse"],
+  "originalArchive": ["datasetVersion.originalArchive"],
   "license": ["datasetVersion.license"],
   "publicationDate": ["publicationDate"],
   "persistentUrl": ["persistentUrl"],
