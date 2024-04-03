@@ -206,6 +206,12 @@
       "socialscience": {
         "fields": [
           {
+            "typeName": "collectionMode",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": []
+          },
+          {
             "typeName": "dataCollectionSituation",
             "multiple": false,
             "typeClass": "primitive",
