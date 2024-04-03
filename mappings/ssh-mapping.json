@@ -153,15 +153,6 @@
   "dansCollection": ["datasetVersion.metadataBlocks.dansRelationMetadata.fields[?typeName == 'dansCollection'].value[]"],
   "otherGeographicCoverage": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialCoverageText'].value[]"],
   "country": ["datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialCoverageControlled'].value[]"],
-  "geographicCoverage": {
-    "mapping": "datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicCoverage'].value[]",
-    "children": {
-      "country": ["country.value"],
-      "state": ["state.value"],
-      "city": ["city.value"],
-      "otherGeographicCoverage": ["otherGeographicCoverage.value"]
-    }
-  },
   "geographicBoundingBox": {
     "mapping": "datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[]",
     "children": {
