@@ -156,8 +156,8 @@
     "mapping": "datasetVersion.metadataBlocks.geospatial.fields[?typeName == 'geographicBoundingBox'].value[]",
     "children": {
       "eastLongitude": ["eastLongitude.value"],
-      "northLongitude": ["northLongitude.value"],
-      "southLongitude": ["southLongitude.value"],
+      "northLatitude": ["northLongitude.value"],
+      "southLatitude": ["southLongitude.value"],
       "westLongitude": ["westLongitude.value"]
     }
   },
