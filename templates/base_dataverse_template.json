@@ -576,14 +576,14 @@
                   "typeClass": "primitive",
                   "value": ""
                 },
-                "northLongitude": {
-                  "typeName": "northLongitude",
+                "northLatitude": {
+                  "typeName": "northLatitude",
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": ""
                 },
-                "southLongitude": {
-                  "typeName": "southLongitude",
+                "southLatitude": {
+                  "typeName": "southLatitude",
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": ""
