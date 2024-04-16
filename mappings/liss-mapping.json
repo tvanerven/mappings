@@ -24,8 +24,8 @@
   "variable": {
     "mapping": "datasets[*].variables[]",
     "children": {
-      "variableName": ["name"],
-      "variableLabel": ["label"]
+      "odisseiVariableName": ["name"],
+      "odisseiVariableLabel": ["label"]
     }
   },
   "questionSchemeName": ["questionnaires[*].name"],
