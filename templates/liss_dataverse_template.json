@@ -228,19 +228,19 @@
       "variableInformation": {
         "fields": [
           {
-            "typeName": "variable",
+            "typeName": "odisseiVariable",
             "multiple": true,
             "typeClass": "compound",
             "value": [
               {
                 "variableName": {
-                  "typeName": "variableName",
+                  "typeName": "odisseiVariableName",
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": ""
                 },
                 "variableLabel": {
-                  "typeName": "variableLabel",
+                  "typeName": "odisseiVariableLabel",
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": ""
