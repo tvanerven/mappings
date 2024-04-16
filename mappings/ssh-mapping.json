@@ -157,8 +157,8 @@
     "mapping": "datasetVersion.metadataBlocks.dansTemporalSpatial.fields[?typeName == 'dansSpatialBox'].value[]",
     "children": {
       "eastLongitude": ["dansSpatialBoxEast.value"],
-      "northLongitude": ["dansSpatialBoxNorth.value"],
-      "southLongitude": ["dansSpatialBoxSouth.value"],
+      "northLatitude": ["dansSpatialBoxNorth.value"],
+      "southLatitude": ["dansSpatialBoxSouth.value"],
       "westLongitude": ["dansSpatialBoxWest.value"]
     }
   },
