@@ -233,13 +233,13 @@
             "typeClass": "compound",
             "value": [
               {
-                "variableName": {
+                "odisseiVariableName": {
                   "typeName": "odisseiVariableName",
                   "multiple": false,
                   "typeClass": "primitive",
                   "value": ""
                 },
-                "variableLabel": {
+                "odisseiVariableLabel": {
                   "typeName": "odisseiVariableLabel",
                   "multiple": false,
                   "typeClass": "primitive",
