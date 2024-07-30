@@ -21,7 +21,7 @@
   "collectionMode": ["collection_events[*].mode"],
   "dataCollectionSituation": ["response_overview"],
   "actionsToMinimizeLoss": ["collection_events[*].minimize_losses"],
-  "variable": {
+  "odisseiVariable": {
     "mapping": "datasets[*].variables[]",
     "children": {
       "odisseiVariableName": ["name"],
