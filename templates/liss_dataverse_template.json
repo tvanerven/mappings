@@ -163,7 +163,7 @@
                   "typeName": "distributorName",
                   "multiple": false,
                   "typeClass": "primitive",
-                  "value": ""
+                  "value": "Centerdata"
                 }
               }
             ]
