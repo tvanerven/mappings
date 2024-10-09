@@ -1,0 +1,132 @@
+{
+  "datasetVersion": {
+    "termsOfUse": "Deze dataset is alleen beschikbaar onder stricte voorwaarden binnen de Remote-Access-omgeving van het CBS. Lees hier meer over de voorwaarden voor toegang en gebruik van de data: <a href=\"https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen\">https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen</a>",
+    "dataAccessPlace": "<a href=\"https://dab.surf.nl\">https://dab.surf.nl</a>",
+    "originalArchive": "CBS",
+    "metadataBlocks": {
+      "citation": {
+        "fields": [
+          {
+            "typeName": "title",
+            "typeClass": "primitive",
+            "multiple": false,
+            "value": ""
+          },
+          {
+            "typeName": "alternativeTitle",
+            "typeClass": "primitive",
+            "multiple": true,
+            "value": []
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "heritage@uh.edu"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Placeholder"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "typeClass": "controlledVocabulary",
+            "multiple": true,
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "productionPlace",
+            "typeClass": "primitive",
+            "multiple": false,
+            "value": ""
+          },
+          {
+            "typeName": "productionDate",
+            "typeClass": "primitive",
+            "multiple": false,
+            "value": ""
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": ""
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "typeClass": "primitive",
+            "multiple": false,
+            "value": ""
+          },
+          {
+            "typeName": "kindOfData",
+            "typeClass": "primitive",
+            "multiple": true,
+            "value": []
+          }
+        ]
+      }
+    }
+  }
+}

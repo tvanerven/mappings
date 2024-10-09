@@ -1,0 +1,14 @@
+{
+  "title": ["result.citation.spantitle", "result.citation.title"],
+  "dsDescriptionValue": ["result."],
+  "alternativeTitle": ["result.citation.alternativetitle"],
+  "keywordValue": ["result.citation.keywords"],
+  "kindOfData": ["result.citation.kindofdata"],
+  "productionPlace": ["result.productionplace"],
+  "productionDate": ["result.productiondate"],
+  "productionName": ["result.productionname"],
+  "language": ["result.language", "result.spanlanguage"],
+  "contributorName": ["result.rights"],
+  "publicationIDNumber": ["result.publicationidnumber"],
+  "authorName": ["result.authorname"]
+}
